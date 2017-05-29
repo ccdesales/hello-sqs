@@ -10,6 +10,8 @@ logger = logging.getLogger(__name__)
 
 @application.route('/download_the_internet', methods=['GET', 'POST'])
 def download_the_internet():
+    logger.debug("I've downloaded the Internet")
+
     return "I've downloaded the Internet"
 
 
